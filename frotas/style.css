@@ -1,0 +1,89 @@
+/* ok */
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* estilo para o botão menu */
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.icone-menu {
+    color: blue;
+    font-size: 35px;
+}
+
+.frotas {
+    background-color:#0964B4;
+}
+
+.redes {
+    font-size: 35px;
+    color: #0964B4;
+}
+
+.text-footer {
+    font-size: 14px;
+}
+
+.link-footer {
+    color: black;
+}
+
+.link-footer:hover {
+    color: #0964B4;
+    text-decoration: none;
+    transition: .5s;
+}
+
+li {
+    line-height: 30px;
+    
+}
+
+@media (min-width: 360px) {
+    .logo {
+        width: 150px;
+        height: 100px;
+    }
+
+    .frotas {
+        height: 280px;
+    }
+
+    .img-frotas {
+        width: 320px;
+    }
+}
+
+@media (min-width: 576px) {
+   .img-frotas {
+        width: 520px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .logo {
+        width: 250px;
+        height: 130px;
+    }
+
+    .img-frotas {
+        width: 430px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .logo {
+        width: 230px;
+        height: 150px;
+    }
+
+    .img-frotas {
+        width: 530px;
+    }
+}

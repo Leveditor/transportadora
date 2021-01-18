@@ -1,0 +1,124 @@
+/* ok */
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* estilo para o botão menu */
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.icone-menu {
+    color: blue;
+    font-size: 35px;
+}
+
+.contato {
+    background-color: #0964B4;
+    height: 280px;
+}
+
+.formulario {
+    background-color: #F7F7F7;
+}
+
+.input, .mensagem {
+    background-color: #EFEFEF;
+    border: none;
+}
+
+.color-btn {
+    background-color: #0964B4;
+}
+
+/* footer */
+.redes {
+    font-size: 35px;
+    color: #0964B4;
+}
+
+.text-footer {
+    font-size: 14px;
+}
+
+.link-footer {
+    color: black;
+}
+
+.link-footer:hover {
+    color: #0964B4;
+    text-decoration: none;
+    transition: .5s;
+}
+
+@media (min-width: 360px) {
+    .logo {
+        width: 150px;
+        height: 70px;
+    }
+
+    .input {
+        width: 220px;
+    }
+
+    .mensagem {
+        width: 220px;
+    }
+
+    .mapa {
+        width: 332px;
+        height: 180px;
+    }
+}
+
+@media (min-width: 576px) {
+
+    .logo {
+        width: 250px;
+    }
+
+    .formulario {
+        width: 330px;
+    }
+
+    .mapa {
+        width: 520px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 768px) {
+    .mapa {
+        width: 690px;
+        height: 300px;
+    } 
+}
+
+@media (min-width: 992px) {
+    .mapa {
+        width: 900px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .logo {
+        width: 230px;
+        height: 150px;
+    }
+
+    .input {
+        width: 380px;
+    }
+
+    .formulario {
+        width: 730px;
+    }
+
+    .mapa {
+        width: 1110px;
+        height: 400px;
+    }
+}

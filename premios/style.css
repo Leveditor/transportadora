@@ -1,0 +1,66 @@
+/* OK */
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* estilo para o botão menu */
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.icone-menu {
+    color: blue;
+    font-size: 35px;
+}
+
+.premios {
+    background-color:  #0964B4;
+}
+
+/* FOOTER */
+.redes {
+    font-size: 35PX;
+    color: #0964B4;
+}
+
+.text-footer {
+    font-size: 14px;
+}
+
+.link-footer {
+    color: black;
+}
+
+.link-footer:hover {
+    color:  #0964B4;
+    text-decoration: none;
+    transition: .5s;
+}
+
+
+@media (min-width: 360px) {
+    .logo {
+        width: 150px;
+        height: 100px;
+    }
+
+    .premios {
+        height: 280px;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo {
+        width: 250px;
+        height: 130px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .logo {
+        width: 230px;
+        height: 150px;
+    }
+}
+

@@ -1,0 +1,116 @@
+/* ok */
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* estilo para o botão menu */
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.icone-menu {
+    color: blue;
+    font-size: 35px;
+}
+
+.card-body {
+    background-color: #EFEFEF;
+}
+
+.bodyBlue, .bodyBlueContato {
+    background-color:#0964B4;
+ 
+}
+
+.botaoContato {
+    border: none;
+    color: #0964B4;
+}
+
+/* icone da sessão de contatos */
+.iconeContato {
+    font: 20px;
+}
+
+/* footer */
+.redes {
+    font-size: 35PX;
+    color: #0964B4;
+}
+
+.text-footer {
+    font-size: 14px;
+}
+
+.link-footer {
+    color: black;
+}
+
+.link-footer:hover {
+    color: red;
+    text-decoration: none;
+    transition: .5s;
+}
+
+
+
+@media (min-width: 360px) {
+    .logo {
+        width: 150px;
+        height: 100px;
+    }
+
+    .img-card, .card {
+        width: 300px;
+    }
+ 
+    .bodyBlue {
+        height: 280px;
+    }
+    
+    .bodyBlueContato {
+        height: 200px;
+    }
+}
+
+@media (min-width: 576px) {
+    .img-card, .card {
+        width: 500px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .logo {
+        width: 250px;
+        height: 130px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .img-card, .card {
+        width: 400px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .logo {
+        width: 230px;
+        height: 150px;
+    }
+  
+    .historia {
+        font-size: 50px;
+    }
+
+    .img-card, .card {
+        width: 500px;
+    }
+
+    .card-text {
+        font-size: 17px;
+    }
+}

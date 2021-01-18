@@ -1,0 +1,90 @@
+/* ok */
+html {
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* estilo para o botão menu */
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.icone-menu {
+    color: blue;
+    font-size: 35px;
+}
+
+/* botão azul */
+.buttonBlue {
+    border: none;
+    background-color: #0964B4;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10px;
+}
+
+.solucao {
+    height: 300px;
+}
+
+/* sessão dos clientes */
+.clientes {
+    width: 120px;
+}
+
+/* icones do footer */
+i {
+    font-size: 35px;
+    color: #0964B4;
+}
+
+.text-footer {
+    font-size: 14px;
+}
+
+.link-footer {
+    color: black;
+}
+
+.link-footer:hover {
+    color: red;
+    text-decoration: none;
+    transition: .5s;
+}
+
+@media (min-width: 360px) { 
+      
+    .logo {
+        width: 150px;
+        height: 100px;
+    }
+
+    .caminhao {
+        width: 300px;
+    } 
+ }
+
+ @media (min-width: 768px) {
+    .logo {
+        width: 250px;
+        height: 130px;
+    }
+
+    .caminhao {
+        width: 400px;
+    }
+ }
+
+ @media (min-width: 1200px) {
+    .logo {
+        width: 230px;
+        height: 150px;
+    }
+
+    .caminhao {
+        width: 800px;
+    }
+    
+    
+ }
