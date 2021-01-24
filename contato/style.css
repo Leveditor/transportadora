@@ -14,7 +14,7 @@ html {
     font-size: 35px;
 }
 
-.contato {
+.bodyBlue {
     background-color: #0964B4;
     height: 280px;
 }
@@ -50,6 +50,23 @@ html {
     color: #0964B4;
     text-decoration: none;
     transition: .5s;
+}
+
+@media (min-width: 320px) {
+    .logo {
+        width: 150px;
+        height: 100px;
+    }
+    
+    .bodyBlue {
+        height: 200px;
+    }
+
+    iframe {
+        width: 290px;
+        height: 300px;
+    }
+
 }
 
 @media (min-width: 360px) {

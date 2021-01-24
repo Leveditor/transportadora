@@ -14,7 +14,7 @@ html {
     font-size: 35px;
 }
 
-.premios {
+.bodyBlue {
     background-color:  #0964B4;
 }
 
@@ -38,6 +38,16 @@ html {
     transition: .5s;
 }
 
+@media (min-width: 320px) {
+    .logo {
+        width: 150px;
+        height: 100px;
+    }
+
+    .bodyBlue {
+        height: 200px;
+    }
+}
 
 @media (min-width: 360px) {
     .logo {
@@ -45,7 +55,7 @@ html {
         height: 100px;
     }
 
-    .premios {
+    .bodyBlue {
         height: 280px;
     }
 }

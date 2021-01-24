@@ -53,6 +53,22 @@ i {
     transition: .5s;
 }
 
+@media (min-width: 320px) { 
+      
+    .logo {
+        width: 110px;
+        height: 100px;
+    }
+
+    .caminhao {
+        width: 300px;
+    } 
+
+    .clientes {
+        width: 100px;
+    }
+ }
+
 @media (min-width: 360px) { 
       
     .logo {
@@ -85,6 +101,4 @@ i {
     .caminhao {
         width: 800px;
     }
-    
-    
  }

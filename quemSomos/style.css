@@ -53,7 +53,16 @@ html {
     transition: .5s;
 }
 
+@media (min-width: 320px) {
+    .logo {
+        width: 150px;
+        height: 100px;
+    }
 
+    .bodyBlue {
+        height: 200px;
+    }
+}
 
 @media (min-width: 360px) {
     .logo {

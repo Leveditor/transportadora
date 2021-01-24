@@ -14,7 +14,7 @@ html {
     font-size: 35px;
 }
 
-.servico {
+.bodyBlue {
     background-color: #0964B4;
 }
 
@@ -46,6 +46,24 @@ html {
     transition: .5s;
 }
 
+@media (min-width: 320px) {
+    .logo {
+        width: 150px;
+        height: 100px;
+    }
+
+    .bodyBlue {
+        height: 200px;
+    }
+
+    .img-card {
+        width: 300px;
+        height: 200px;
+    }
+
+    
+}
+
 @media (min-width: 360px) {
     .logo {
         width: 150px;
@@ -63,7 +81,6 @@ html {
 
     .card-body {
         width: 300px;
-        
     }
 }
 
